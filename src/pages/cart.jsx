@@ -4,7 +4,7 @@ import {
   increaseQuantity,
   decreaseQuantity,
 } from "../rtk-store/cartSlice";
-import cart from '../pages/Cart'
+import cart from '../pages/cart'
 import { Link } from "react-router-dom";
 
 import { IoTrashOutline } from "react-icons/io5";
