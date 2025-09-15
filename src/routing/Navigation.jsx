@@ -12,6 +12,7 @@ import NeckBands from "../pages/NeckBands";
 export default function Navigation() {
   return (
     <div>
+       
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cart" element={<Cart />} />
@@ -22,6 +23,7 @@ export default function Navigation() {
         <Route path="/earphones" element={<EarPhones />} />
         <Route path="/neckbands" element={<NeckBands />} />
       </Routes>
+       
     </div>
   )
 }

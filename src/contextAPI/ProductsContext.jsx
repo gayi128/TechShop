@@ -5,7 +5,7 @@ import productsData from "./Productsdata.js";
 export const ProductsContext = createContext();
 
 export const ProductsProvider = ({ children }) => {
-  const [products, setProducts] = useState(Productsdata);
+  const[products, setProducts] = useState(productsData);
 
   return (
     <ProductsContext.Provider value={{ products, setProducts }}>

@@ -54,5 +54,19 @@
   "bugs": {
     "url": "https://github.com/gayi128/TechShop/issues"
   },
-  "homepage": "https://github.com/gayi128/TechShop#readme"
+  "homepage": "https://github.com/gayi128/TechShop#readme",
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-react": "^7.27.1",
+    "@tailwindcss/postcss": "^4.1.13",
+    "autoprefixer": "^10.4.21",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "postcss": "^8.5.6",
+    "postcss-loader": "^8.2.0",
+    "style-loader": "^4.0.0",
+    "tailwindcss": "^4.1.13"
+  }
 }
