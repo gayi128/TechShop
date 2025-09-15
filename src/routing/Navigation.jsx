@@ -1,13 +1,13 @@
 
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Cart from "../pages/Cart";
+import Cart from "../pages/cart";
 import Home from "../pages/Home";
 import ProductDetails from "../pages/ProductDetails";
 import AllProducts from "../pages/AllProducts";
 import HeadPhones from "../pages/HeadPhones";
-import EarBuds from "../pages/EarBuds";
-import EarPhones from "../pages/EarPhones";
+import EarBuds from "../pages/earbuds";
+import EarPhones from "../pages/earPhones";
 import NeckBands from "../pages/NeckBands";
 
 export default function Navigation() {

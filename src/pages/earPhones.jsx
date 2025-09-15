@@ -1,6 +1,6 @@
 
 import React, { useContext } from "react";
-import productsData from'../contextAPI/ProductsData.js'
+import productsData from'../contextAPI/Productsdata.js'
 import ProductCard from "../components/Card";
 
 export default function EarPhones(){

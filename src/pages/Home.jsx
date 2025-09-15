@@ -1,13 +1,13 @@
 
 import { Link } from "react-router-dom";
 import { FaStar, FaArrowRight, FaTags, FaTruck, FaShieldAlt, FaRegCreditCard } from "react-icons/fa";
-import productsData from "../contextAPI/ProductsData.js";
+import productsData from "../contextAPI/Productsdata.js";
 import { addToCart } from "../rtk-store/cartSlice.js";
 import { useDispatch } from "react-redux";
 import { useState, useEffect } from "react";
-import sonyxb910n from '../assets/sonyXb910n-1.png'
-import jbl500bt from "../assets/jbl500bt-1.png"
-import boat131_3 from '../assets/boat131-3.png'
+import sonyxb910n from '../Assets/sonyXb910n-1.png'
+import jbl500bt from "../Assets/jbl500bt-1.png"
+import boat131_3 from '../Assets/boat131-3.png'
 
 
 export default function Home() {
