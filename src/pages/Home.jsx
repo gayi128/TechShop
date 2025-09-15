@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import { FaStar, FaArrowRight, FaTags, FaTruck, FaShieldAlt, FaRegCreditCard } from "react-icons/fa";
 import productsData from "../contextAPI/ProductsData.js";
-import { addToCart } from "../rtk-store/cartSlice";
+import { addToCart } from "../rtk-store/cartSlice.js";
 import { useDispatch } from "react-redux";
 import { useState, useEffect } from "react";
 import sonyxb910n from '../assets/sonyXb910n-1.png'
